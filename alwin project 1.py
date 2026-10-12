@@ -2,7 +2,7 @@ def opspilot_ai():
     print("OpsPilot AI: Ask about an operations issue, or type 'exit'.")
 
     while True:
-        question = input("You: ").strip().lower()
+     https://github.com/Alwin0606/Opspilot-AI.githttps://github.com/Alwin0606/Opspilot-AI.githttps://github.com/Alwin0606/Opspilot-AI.git   question = input("You: ").strip().lower()
 
         if question == "exit":
             print("OpsPilot AI: Goodbye.")
