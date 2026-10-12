@@ -1,0 +1,18 @@
+A beginner-friendly python project built to explore
+automation and AI concepts.
+FEATURES
+         * Simple user interation
+         * Python-based application
+         * Beginner-friendly code
+         * Future scope for Ai and automation
+TECHNOLOGIES USED
+         * Python 3
+         * GitHub
+HOW TO RUN
+        1. Install Python
+        2. Download or Clone this repository
+        3. Open the terminal in the project folder.
+        4. Run
+               py Main.py
+AUTHOR
+       Alwin
