@@ -1,0 +1,3 @@
+<h1> Opspilot AI</h1>
+<p> welcome to my AI project!</p>
+  <button on click="alert('AI is ready!')"</button>
