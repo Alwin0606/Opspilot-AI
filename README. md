@@ -1,221 +1,248 @@
- <div align="center">
-
 # 🚀 OpsPilot AI
 
-### AI-Powered Operations Intelligence Platform
+### AI-Powered IT Incident Management & Intelligent Operations Platform
 
-**AUTOMATE OPERATIONS. DETECT ISSUES. OPTIMIZE PERFORMANCE.**
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-POWERED-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DEVOPS-INTELLIGENCE-00BFFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
 
-<img src="https://img.shields.io/badge/OPS-INTELLIGENCE-00C7B7?style=for-the-badge" />
-<img src="https://img.shields.io/badge/AI-POWERED-8A2BE2?style=for-the-badge" />
-<img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-FF9800?style=for-the-badge" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-ML-8A2BE2?style=flat-square" />
-<img src="https://img.shields.io/badge/Automation-00C853?style=flat-square" />
-<img src="https://img.shields.io/badge/Enterprise-Ready-1565C0?style=flat-square" />
+<p align="center">
+  **DETECT INCIDENTS. ANALYZE ROOT CAUSES. RESTORE SYSTEM RELIABILITY.**
+</p>
 
 ---
 
-**Intelligent automation for modern operational environments.**
-
-</div>
-
 ## ◈ 01 — PROJECT OVERVIEW
 
-**OpsPilot AI** is an AI-oriented operations management platform concept designed to simplify operational workflows, improve visibility, and support smarter decision-making.
+**OpsPilot AI** is an AI-powered IT incident management and operations intelligence platform designed to help engineering and DevOps teams investigate application issues, analyze operational logs, identify potential root causes, and generate actionable troubleshooting recommendations.
 
-The project aims to bring automation, operational intelligence, monitoring, and analytics together in one workspace.
+The platform combines artificial intelligence, incident analysis, and operational intelligence to simplify troubleshooting and improve incident response workflows.
 
-## ◈ 02 — CORE CAPABILITIES
+Built using Python, FastAPI, React, and PostgreSQL, OpsPilot AI aims to provide engineering teams with a centralized environment for incident investigation and operational decision support.
 
-<table>
-<tr>
-<td width="50%">
+## ◈ 02 — CORE FEATURES
 
-### 🤖 AI OPERATIONS
+### 🤖 AI-POWERED INCIDENT ANALYSIS
+- Intelligent application log analysis.
+- AI-assisted incident investigation.
+- Potential root-cause identification.
+- Context-aware troubleshooting recommendations.
 
-- Intelligent operational insights
-- AI-assisted recommendations
-- Automated decision support
-- Operational pattern analysis
+### 🔍 ERROR & LOG INTELLIGENCE
+- Application error analysis.
+- Log-based issue identification.
+- Error pattern investigation.
+- Operational problem analysis.
 
-</td>
-<td width="50%">
+### 🚨 INCIDENT MANAGEMENT
+- Incident identification and tracking.
+- Incident prioritization.
+- Structured incident information.
+- Troubleshooting workflow support.
 
-### ⚙️ WORKFLOW AUTOMATION
+### 🧠 ROOT CAUSE ANALYSIS
+- Investigate potential causes of failures.
+- Analyze available application evidence.
+- Generate actionable recommendations.
+- Support faster technical investigations.
 
-- Workflow orchestration
-- Repetitive task automation
-- Process optimization
-- Automation management
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📊 PERFORMANCE INTELLIGENCE
-
-- Operational analytics
-- Performance monitoring
-- Activity tracking
-- Operational reporting
-
-</td>
-<td width="50%">
-
-### 🔔 ISSUE MANAGEMENT
-
-- Issue identification
-- Operational alerts
-- Incident tracking
-- Investigation support
-
-</td>
-</tr>
-</table>
+### 📊 OPERATIONS INTELLIGENCE
+- Centralized operational workspace.
+- Incident information management.
+- Operational insights.
+- Improved troubleshooting visibility.
 
 ## ◈ 03 — TECHNOLOGY STACK
 
 | Layer | Technology |
 |---|---|
-| AI / ML | Python-based intelligence |
-| Backend | To be finalized |
-| Frontend | To be finalized |
-| Database | To be finalized |
-| Automation | Workflow automation |
-| Analytics | Operational intelligence |
-
-*Update this section to reflect the actual technologies implemented in the repository.*
+| Programming Language | Python |
+| Backend Framework | FastAPI |
+| Frontend Framework | React |
+| Database | PostgreSQL |
+| API Architecture | REST API |
+| AI / Intelligence | Python-based AI integration |
+| Development | Visual Studio Code |
+| Version Control | Git & GitHub |
 
 ## ◈ 04 — SYSTEM ARCHITECTURE
 
 ```text
-             ┌────────────────────────────┐
-             │         OpsPilot AI        │
-             │  Operations Intelligence   │
-             └──────────────┬─────────────┘
-                            │
-             ┌──────────────▼─────────────┐
-             │       USER WORKSPACE       │
-             │    Dashboard & Analytics   │
-             └──────────────┬─────────────┘
-                            │
-             ┌──────────────▼─────────────┐
-             │       API / BACKEND        │
-             └──────────────┬─────────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-   ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
-   │ AI ENGINE   │   │ AUTOMATION  │   │ MONITORING  │
-   │             │   │ ENGINE      │   │ ENGINE      │
-   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            │
-             ┌──────────────▼─────────────┐
-             │    OPERATIONAL INSIGHTS    │
-             │ Reports • Alerts • Actions │
-             └────────────────────────────┘
+                  ┌─────────────────────────┐
+                  │       OpsPilot AI       │
+                  │  Operations Intelligence│
+                  └────────────┬────────────┘
+                               │
+                  ┌────────────▼────────────┐
+                  │     React Frontend      │
+                  │   Operations Dashboard  │
+                  └────────────┬────────────┘
+                               │
+                  ┌────────────▼────────────┐
+                  │      FastAPI Backend    │
+                  │       REST Services     │
+                  └────────────┬────────────┘
+                               │
+             ┌─────────────────┼─────────────────┐
+             │                 │                 │
+      ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
+      │ LOG ANALYSIS│   │ AI ENGINE   │   │  INCIDENT  │
+      │             │   │             │   │ MANAGEMENT │
+      └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
+             │                 │                 │
+             └─────────────────┼─────────────────┘
+                               │
+                  ┌────────────▼────────────┐
+                  │      PostgreSQL        │
+                  │   Operational Data     │
+                  └────────────┬────────────┘
+                               │
+                  ┌────────────▼────────────┐
+                  │   Incident Intelligence │
+                  │  Insights & Recommendations
+                  └─────────────────────────┘
 ```
 
 ## ◈ 05 — PROJECT STRUCTURE
 
 ```text
-OpsPilot-AI/
+Opspilot-AI/
 │
-├── frontend/
-├── backend/
-├── ai_engine/
-├── automation/
-├── monitoring/
-├── database/
-├── infrastructure/
-├── docs/
-├── tests/
+├── Futureshield.py
+├── alwin project 1.py
+├── home html
+├── index.html
+├── main.py
 ├── README.md
-└── .gitignore
+│
+└── ...
 ```
 
-*Illustrative target structure. Adjust it to match the actual repository.*
+*The above reflects the currently visible repository files. Expand this section as the backend, frontend, and database modules are organized.*
 
 ## ◈ 06 — INSTALLATION & EXECUTION
 
 ### Prerequisites
 
 - Python 3.11+
+- Node.js and npm (if required by the frontend)
+- PostgreSQL (if required by the configured application)
 - Git
-- Node.js and npm (if using a frontend)
-- Required project dependencies
+- Visual Studio Code
 
 ### Step 01 — Clone Repository
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd OpsPilot-AI
+```powershell
+git clone https://github.com/Alwin0606/Opspilot-AI.git
 ```
 
-### Step 02 — Create Python Environment
+### Step 02 — Navigate to Project
+
+```powershell
+cd Opspilot-AI
+```
+
+### Step 03 — Create Virtual Environment
 
 ```powershell
 py -3.13 -m venv .venv
+```
+
+### Step 04 — Activate Environment
+
+```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 .\.venv\Scripts\Activate.ps1
 ```
 
-### Step 03 — Install Dependencies
+### Step 05 — Install Dependencies
+
+If a `requirements.txt` file is available:
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-### Step 04 — Run Application
+### Step 06 — Run Application
 
-Use the actual project startup command documented in the source code.
+Use the startup command configured in the actual backend application.
 
-## ◈ 07 — DEVELOPMENT ROADMAP
+For a FastAPI application with `main.py` exposing an `app` instance:
 
-- [ ] Core operations architecture
-- [ ] Backend and API development
-- [ ] AI intelligence integration
-- [ ] Workflow automation engine
-- [ ] Monitoring and analytics
-- [ ] Incident and alert management
-- [ ] Dashboard integration
-- [ ] Testing and optimization
-- [ ] Documentation and release
+```powershell
+python -m uvicorn main:app --reload
+```
 
-## ◈ 08 — SECURITY & RELIABILITY
+## ◈ 07 — PROJECT OBJECTIVES
 
-- Secure configuration management.
-- Environment-based secrets.
-- Input validation.
-- Error handling and logging.
-- Access control.
-- Responsible AI-assisted decision-making.
+- Simplify IT incident investigation.
+- Reduce manual log analysis efforts.
+- Identify potential application failures.
+- Improve root-cause investigation.
+- Generate actionable troubleshooting recommendations.
+- Improve operational visibility.
+- Support faster incident response.
 
-## ◈ 09 — PROJECT VISION
+## ◈ 08 — FUTURE ENHANCEMENTS
 
-The long-term vision of OpsPilot AI is to create a unified operations intelligence platform that helps organizations automate repetitive work, identify operational issues, understand performance, and make informed decisions.
+- [ ] Multi-agent AI incident investigation.
+- [ ] Real-time log monitoring.
+- [ ] Advanced root-cause analysis.
+- [ ] AI-powered remediation recommendations.
+- [ ] Kubernetes monitoring integration.
+- [ ] Cloud infrastructure monitoring.
+- [ ] Automated incident notifications.
+- [ ] Historical incident intelligence.
+- [ ] Predictive failure detection.
+- [ ] Advanced DevOps analytics dashboard.
+- [ ] CI/CD deployment correlation.
+- [ ] Enterprise role-based access control.
 
-## ◈ 10 — AUTHOR
+## ◈ 09 — SECURITY & RELIABILITY
 
-<div align="center">
+- Secure environment configuration.
+- Sensitive credential protection.
+- API input validation.
+- Structured incident logging.
+- Controlled access to operational information.
+- Human review of AI-generated recommendations.
+
+## ◈ 10 — PROJECT VISION
+
+The vision of OpsPilot AI is to evolve into an intelligent IT operations platform that helps engineering teams understand system failures, investigate incidents, identify potential root causes, and make better operational decisions.
+
+**From incident detection to intelligent resolution — one unified platform.**
+
+## ◈ 11 — DISCLAIMER
+
+OpsPilot AI is an independent software development project intended for educational, research, and authorized IT operations purposes.
+
+AI-generated findings and troubleshooting recommendations should be reviewed and validated by qualified engineers before implementation. The platform should not be assumed to automatically resolve production incidents.
+
+## ◈ 12 — DEVELOPER
+
+<p align="center">
 
 ### 👨‍💻 Alwin0606
 
 [![GitHub](https://img.shields.io/badge/GitHub-Visit%20Profile-181717?style=for-the-badge&logo=github)](https://github.com/Alwin0606)
 
-**Building intelligent solutions for real-world operations.**
+**Building Intelligent Solutions for Real-World Engineering Challenges.**
 
-<br/>
+</p>
 
-### 🚀 OpsPilot AI
+---
 
-**AUTOMATE • ANALYZE • OPTIMIZE**
-
-</div>
+<p align="center">
+  <b>🚀 OpsPilot AI</b>
+  <br/>
+  <i>DETECT • INVESTIGATE • ANALYZE • OPTIMIZE</i>
+  <br/><br/>
+  ⭐ If you find this project interesting, consider giving it a star!
+</p>
